@@ -1,9 +1,12 @@
-.list .item {
-  display: inline-block;
-  margin: 18px 20px
+h1, h2 {
+  margin-left: 60px;
+  font-family: 'Open Sans', sans-serif;
+  color: #36C3E0;
 }
 
-.item {
+.list .item {
+  display: inline-block;
+  margin: 18px 20px;
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
   text-align: center
@@ -30,10 +33,10 @@
 
 .inputs {
   width: 250px;
-  height: 800px;
   font-family: Trebuchet, sans-serif;
   font-size: 13px;
-  margin: 50px 0 0 70px ;
+  margin-left: 60px;
+  float: left;
 }
 
 .inputs .inputs-top {
