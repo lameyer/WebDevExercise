@@ -27,3 +27,40 @@
   margin-top: 5px;
   color: #2f4f4f
 }
+
+.inputs {
+  width: 250px;
+  height: 800px;
+  font-family: Trebuchet, sans-serif;
+  font-size: 13px;
+  margin: 50px 0 0 70px ;
+}
+
+.inputs .inputs-top {
+  width: 243px;
+  float: left;
+  margin: 0;
+}
+
+.inputs .input-right {
+  float: right;
+}
+
+.inputs input, select, textarea {
+  margin: 10px 0 10px 0;
+}
+
+.inputs p {
+  padding: 0;
+  margin: 5px 0 5px 0;
+}
+
+.inputs #submit {
+  width: 65px;
+  height: 40px;
+  background-color: purple;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
