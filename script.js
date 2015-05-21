@@ -13,6 +13,12 @@ $(document).ready(function(){
   // show popover on hover over trigger
   $(".trigger").hover(function(){
     $(".popover").show();
+    $(".popover").on("mouseenter", function(){
+      $(this).show();
+    });
+    $(".popover").on("mouseleave", function(){
+      $(this).hide();
+    });
   }, function(){
     $(".popover").hide();
   });
