@@ -13,9 +13,11 @@ $(document).ready(function(){
   // show popover on hover over trigger
   $(".trigger").hover(function(){
     $(".popover").show();
+    // popover stays up when mouse over it
     $(".popover").on("mouseenter", function(){
       $(this).show();
     });
+    // popover hides when mouse out of it
     $(".popover").on("mouseleave", function(){
       $(this).hide();
     });
