@@ -1,47 +1,47 @@
 h1, h2 {
-  margin-left: 60px;
-  font-family: 'Open Sans', sans-serif;
   color: #36C3E0;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 60px;
 }
 
 .list .item {
   display: inline-block;
-  margin: 18px 20px;
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
-  text-align: center
+  margin: 18px 20px;
+  text-align: center;
 }
 
 .item .kitty {
-  width: 120px;
-  height: 120px;
+  background: url(http://placekitten.com/g/175/175) no-repeat center;
   border-radius: 60px;
+  height: 120px;
   padding-bottom: 6px;
-  background: url(http://placekitten.com/g/175/175) no-repeat center
+  width: 120px;
 }
 
 .item a {
+  color: #666666;
   font-size: 14px;
   text-decoration: none;
-  color: #666666
 }
 
 .item p {
+  color: #2f4f4f;
   margin-top: 5px;
-  color: #2f4f4f
 }
 
 .inputs {
-  width: 250px;
   font-family: Trebuchet, sans-serif;
   font-size: 13px;
   margin-left: 60px;
+  width: 250px;
 }
 
 .inputs .inputs-top {
-  width: 243px;
   float: left;
   margin: 0;
+  width: 243px;
 }
 
 .inputs .input-right {
@@ -53,23 +53,23 @@ h1, h2 {
 }
 
 .inputs p {
-  padding: 0;
   margin: 5px 0 5px 0;
+  padding: 0;
 }
 
 .inputs #submit {
-  width: 65px;
-  height: 40px;
   background-color: purple;
-  color: white;
   border: none;
+  color: white;
   cursor: pointer;
+  height: 40px;
+  width: 65px;
 }
 
 .popover-stuff {
-  width: 240px;
   height: 200px;
   margin: 40px 0 0 26px;
+  width: 240px;
 }
 
 h2.trigger {
@@ -78,29 +78,29 @@ h2.trigger {
 }
 
 .popover .rectangle {
-  height: 50px;
   background-color: #cd3238;
   border-radius: 15px;
+  height: 50px;
 }
 
 .popover .arrow-up {
-  margin: 0 auto;
-  width: 0;
-  height: 0;
   border-left: 7px solid transparent;
   border-right: 7px solid transparent;
   border-bottom: 7px solid #cd3238;
+  height: 0;
+  margin: 0 auto;
+  width: 0;
 }
 
 .popover .rectangle .popover-button {
-  width: 52px;
-  height: 22px;
-  margin: 14px 0 0 94px;
+  background-color: #e7e7e7;
   border-radius: 0;
   border: none;
   font-family: 'Open Sans', sans-serif;
   font-size: 13px;
-  background-color: #e7e7e7;
+  height: 22px;
+  margin: 14px 0 0 94px;
+  width: 52px;
 }
 
 
