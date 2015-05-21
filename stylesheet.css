@@ -1,0 +1,29 @@
+.list .item {
+  display: inline-block;
+  margin: 18px 20px
+}
+
+.item {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  text-align: center
+}
+
+.item .kitty {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  padding-bottom: 6px;
+  background: url(http://placekitten.com/g/175/175) no-repeat center
+}
+
+.item a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #666666
+}
+
+.item p {
+  margin-top: 5px;
+  color: #2f4f4f
+}
