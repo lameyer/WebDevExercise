@@ -40,26 +40,35 @@ h1, h2 {
   font-family: Trebuchet, sans-serif;
   font-size: 13px;
   margin-left: 60px;
-  width: 250px;
+  width: 254px;
 }
 
-.inputs .inputs-top {
-  float: left;
-  margin: 0;
-  width: 243px;
-}
-
-.inputs .input-right {
-  float: right;
+.inputs label {
+  clear: left;
 }
 
 .inputs input, select, textarea {
   margin: 10px 0 10px 0;
 }
 
-.inputs p {
-  margin: 5px 0 5px 0;
-  padding: 0;
+.inputs .personal-info {
+  text-align: right;
+  display: block;
+}
+
+.inputs .personal-info input {
+  margin-left: 5px;
+}
+
+#textarea-label {
+  display: block;
+  margin: 5px 0 15px 0;
+}
+
+.inputs textarea {
+  height: 100px;
+  width: 220px;
+  display: block;
 }
 
 .inputs #submit {

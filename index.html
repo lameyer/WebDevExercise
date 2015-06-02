@@ -56,37 +56,26 @@
     </ul>
 
     <h2>Forms!</h2>
-    <div class="inputs">
-      <form>
-        <div class="inputs-top">
-          <div class="input-right">
-            First: <input type="text" name="first">
-          </div>
-          <div class="input-right">
-            Last: <input type="text" name="last">
-          </div>
-          <div class="input-right">
-            DOB(XX/XX/XXX): <input type="text" name="dob">
-          </div>
-        </div>
-        <br>
-        <div class="inputs-bottom">
-          Select these Choices:
-          <select>
-            <option value="choice-1">Choice 1</option>
-            <option value="choice-2">Choice 2</option>
-            <option value="choice-3">Choice 3</option>
-          </select><br>
-          <p>Textarea:</p>
-          <textarea rows="6" cols="34"></textarea><br>
-          Did you complete the form?:
-            Yes <input type="checkbox" value="yes">
-            No <input type="checkbox" value="no">
-            <br>
-          <input id="submit" type="button" value="Submit" onclick="alert('Ah! You clicked me!')">
-        </div>
-      </form>
-    </div>
+    <form class="inputs">
+      <label class="personal-info">First:<input type="text" name="first"></label>
+      <label class="personal-info">Last:<input type="text" name="last"></label>
+      <label class="personal-info">DOB(XX/XX/XXXX):<input type="text" name="dob"></label>
+      <label id="choice">Select these Choices:
+        <select name="choice">
+          <option value="choice-1">Choice 1</option>
+          <option value="choice-2">Choice 2</option>
+          <option value="choice-3">Choice 3</option>
+        </select>
+      </label>
+      <label id="textarea-label" for="area">Textarea:</label>
+      <textarea id="area"></textarea>
+      <span>Did you complete the form?:</span>
+      <label for="yes">Yes</label>
+      <input name="complete" id="yes" type="radio" value="yes">
+      <label for="no">No</label>
+      <input name="complete" id="no" type="radio" value="no">
+      <input id="submit" type="button" value="Submit">
+    </form>
 
     <div class="popover-stuff">
       <h2 class="trigger">Popover Trigger!</h2>
