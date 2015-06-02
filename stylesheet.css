@@ -4,6 +4,8 @@ h1, h2 {
   margin-left: 60px;
 }
 
+/*List*/
+
 .list .item {
   display: inline-block;
   font-family: 'Open Sans', sans-serif;
@@ -31,6 +33,8 @@ h1, h2 {
   color: #2f4f4f;
   margin-top: 5px;
 }
+
+/*Form*/
 
 .inputs {
   font-family: Trebuchet, sans-serif;
@@ -67,6 +71,8 @@ h1, h2 {
   width: 65px;
 }
 
+/*Popover*/
+
 .popover-stuff {
   height: 200px;
   margin: 40px 0 0 34px;
@@ -101,7 +107,7 @@ h2.trigger:hover ~ .popover, .popover:hover {
   width: 0;
 }
 
-.popover .rectangle .popover-button {
+#popover-button {
   background-color: #e7e7e7;
   border-radius: 0;
   border: none;
