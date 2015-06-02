@@ -72,7 +72,7 @@ h1, h2 {
 }
 
 .inputs input[type=radio] {
-  margin: 0 3px 0 3px;
+  margin: 5px 3px 5px 3px;
 }
 
 .inputs #submit {
