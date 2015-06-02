@@ -71,6 +71,10 @@ h1, h2 {
   display: block;
 }
 
+.inputs input[type=radio] {
+  margin: 0 3px 0 3px;
+}
+
 .inputs #submit {
   background-color: purple;
   border: none;
